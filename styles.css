@@ -1,0 +1,757 @@
+body {
+    /* background-color: brown; */
+    padding: 0%;
+    margin: 0;
+    width: 100%;
+}
+
+p, h1,h2, h3, h4, h5, h6, button {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h3 {
+    color: #2498f4;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+}
+
+#top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-image: url(top-bar/top-bar.png);
+    height: 50px;
+}
+
+#mini {
+    width: auto;
+    color: white;
+    margin: auto 0;
+}
+
+#top-icons {
+    display: flex;
+    width: auto;
+    margin: auto 15px auto 15px;
+    justify-content: center;
+}
+
+.fix {
+    width: 20px;
+    height: 20px;
+}
+
+.fix2 {
+    height: 30px;
+}
+
+#space-top {
+    width: 100px;
+}
+
+#menu-container {
+    width: 100%;
+    /* height: 110px; */
+    background-image: url(menu/Menu.png);
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    justify-content: center;
+}
+
+#menu-container div {
+    margin: 10px;
+}
+
+
+.menu-icons {
+    /* need to stack the two; */
+    display: inline-block; 
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-x {
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+}
+
+#icon-marker {
+    background-image: url(menu/Marker.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 5px;
+}
+
+#icon-1 {
+    background-image: url(menu/icon1.png);
+
+}
+
+#icon-1:hover {
+    background-image: url(menu/icon1B.png);
+}
+
+#icon-2 {
+    background-image: url(menu/icon2.png);
+}
+
+#icon-2:hover {
+    background-image: url(menu/icon2B.png);
+}
+
+#icon-3 {
+    
+    background-image: url(menu/icon3.png);
+
+}
+
+#icon-3:hover {
+    background-image: url(menu/icon3B.png);
+}
+
+#icon-4 {
+    background-image: url(menu/icon4.png);
+}
+
+#icon-4:hover {
+    background-image: url(menu/icon4B.png);
+}
+
+#icon-5 {
+    background-image: url(menu/icon5.png);
+    width: 55px;
+   
+}
+
+#icon-5:hover {
+    background-image: url(menu/icon5B.png);
+}
+
+#icon-6 {
+    background-image: url(menu/icon6.png);
+    width: 50px;
+}
+
+#icon-6:hover {
+    background-image: url(menu/icon6B.png);
+}
+
+.icon-base {
+    background-image: url(menu/Icon_shadow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 5px;
+    width: 60px;
+    margin-top: 15px;
+}
+
+#main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#dashboard-box {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    background-color: #33cc66;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 10px;
+    color: white;
+}
+#dashboard-box div {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#dashboard-box input {
+    height: 22px;
+    margin: auto;
+    border: none;
+}
+
+#dashboard-box img {
+    margin-left: 2px;
+}
+
+#mega-content {
+    width: 80%;
+    background-image: url(main-container/fade-out.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    /* height: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1%;
+}
+
+#announcements {
+    width: 100%;
+    border: solid 1px lightgray;
+    display: grid;
+    grid-template-columns: 1fr 3.5fr .25fr;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+}
+
+#ann-text {
+    color: #fe7f13;
+}
+
+
+#announcements div {
+    margin: auto;
+}
+
+.br {
+    border-right: solid 1px lightgray;
+}
+
+.bb {
+    border-bottom: solid 1px lightgray;
+}
+
+.bl {
+    border-left: solid 1px lightgray;
+}
+
+#grid-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: white;
+}
+
+#left-container {
+    background-color: white;
+}
+
+#right-container {
+    background-color: white;
+}
+
+#right-container h3 {
+    padding: 10px;
+}
+
+#tasks-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#tasks-title img {
+    padding: 10px;
+}
+
+.task-x {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #2498f3;
+    border-bottom: solid 1px lightgray;
+    padding: 3px;
+}
+
+.task-x div {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.task-num {
+    color: white;
+    padding: 15px;
+}
+
+.task-num p {
+    position: absolute;
+    margin: auto;
+}
+
+.likes {
+    padding: 5px;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+.likes img {
+    margin: 5px;
+    
+}
+
+.likes p {
+    margin: auto;
+}
+
+#rex-box h3 {
+    padding: 10px;
+}
+
+#recs {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.rec-x {
+    width: 100%;
+    display: flex;
+padding: 3px;
+}
+
+.rec-x img {
+    padding: 15px;
+}
+
+#analytics-box {
+    width: 100%; 
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* background-color: cadetblue; */
+}
+
+#activity {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#activity p {
+    padding-left: 10px;
+
+}
+
+#left-chart img {
+    width: 80%;
+    padding: 30px;
+}
+
+#pie-box img {
+    width: 50%;
+    padding: 20px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: gray;
+    padding: 6px;
+    font-size: 12px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: flex;
+    margin: 10px;
+  }
+  
+  #drop {
+      width: 100%;
+      display: flex;
+      border: solid 1px lightgray;
+      padding: 0;
+      margin: 0;
+  }
+
+  #drop img {
+      width: 10px;
+      height: 5px;
+      border-left: solid 1px lightgray;
+      padding: 15px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+
+  #socials {
+    width: 100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.social-x {
+display: flex;
+justify-content: space-between;
+margin: 5px;
+
+}
+
+#fb {
+    background-color: #114570;
+    border-radius: 5px;
+    color: white;
+    padding:2px;
+}
+
+#tw {
+    background-color:#2298f4;
+    border-radius: 5px;
+    color: white;
+    padding:2px;
+}
+
+#fs {
+    background-color: #3a599b;
+    border-radius: 5px;
+    color: white;
+    padding:2px;
+}
+
+#gp {
+    background-color: #31cc66;
+    border-radius: 5px;
+    color: white;
+    padding:2px;
+}
+
+.socials {
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+}
+
+#card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-x {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+   text-align: center;
+   margin: 10px;
+}
+
+.fix-banner-left {
+    margin: auto 0;
+    text-align: right;
+}
+.fix-banner-right {
+    margin: auto 0;
+    text-align: left;
+}
+.blue-banner {
+    background-color: #2394ee;
+    color: white;
+}
+
+.white-square {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-graph {
+    padding: 10px;
+}
+
+#testimony-box {
+    background-color: #2498f4;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin: 15px;
+}
+
+#testimony-box p {
+    margin: 20px;
+}
+
+#testimony-box img {
+    height: 40px;
+    margin: auto;
+}
+
+#three-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2298f4;
+    justify-content: center;
+    padding: 20px;
+}
+
+.three-x {
+    padding: 80px 150px;
+    background-color: white;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+
+#bottom-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7f7;
+    border-top: solid 2px lightgray;
+    position: sticky;
+    bottom: 0;
+}
+
+
+#bot-container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#bot-container div {
+    border-right: solid 1px lightgray;
+}
+
+#tsb {
+    display: flex;
+    margin: auto;
+}
+
+#tsb p {
+    margin: 3px;
+    padding: 3px;
+}
+
+.border-right {
+    border-right: solid 1px gray;
+}
+
+#ariel {
+    margin: auto;
+    display: flex;
+    justify-content: space-between
+}
+
+#ariel img {
+    padding: 4px;
+}
+
+.blue {
+    color: #2298f4;
+}
+
+#logout {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#logout p {
+    margin: auto 2px;
+}
+
+#bot-icons {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#bot-icons div {
+    height: 20px; 
+    width: 20px;
+    margin: auto 2px;
+}
+
+#b-fb {
+    background-image: url(main-container/Avatar_\ Facebook-grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#b-tw {
+    background-image: url(main-container/Avatar_\ Twitter-grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#b-fq {
+    background-image: url(main-container/Avatar_\ Foursquare-grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#b-yt {
+    background-image: url(main-container/Avatar_\ YouTube-grey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#first {
+    background-image: url(main-container/Watch_What_You_Say.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#second {
+    background-image: url(main-container/See_How_Others\ copy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#third {
+    background-image: url(main-container/Version_2.0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* CSS Created by CSS CHECKBOX */
+/**********************************/
+/**** www.CSScheckbox.com *********/
+
+/*general styles for all CSS Checkboxes*/
+label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    
+    input[type=checkbox].css-checkbox {
+          position: absolute; 
+        overflow: hidden; 
+        clip: rect(0 0 0 0); 
+        height:1px; 
+        width:1px; 
+        margin:-1px; 
+        padding:0;
+        border:0;
+    }
+    
+    input[type=checkbox].css-checkbox + label.css-label {
+        padding-left:20px;
+        height:15px; 
+        display:inline-block;
+        line-height:15px;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+        font-size:15px;
+        vertical-align:middle;
+        cursor:pointer;
+    }
+    
+    input[type=checkbox].css-checkbox:checked + label.css-label {
+        background-position: 0 -15px;
+    }
+    
+    .css-label{
+        background-image:url(http://csscheckbox.com/checkboxes/dark-check-green.png);
+    }
+.vlad{background-image:url(http://csscheckbox.com/checkboxes/vlad.png);}
+
+input[type=checkbox].css-checkbox.med + label.css-label.med {
+	padding-left:22px;
+    height:17px; 
+	display:inline-block;
+	line-height:17px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.med:checked + label.css-label.med {
+
+    background-position: 0 -17px;
+}
+input[type=checkbox].css-checkbox.sme + label.css-label.sme {
+	padding-left:22px;
+    height:16px; 
+	display:inline-block;
+	line-height:16px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.sme:checked + label.css-label.sme{
+
+    background-position: 0 -16px;
+}
+input[type=checkbox].css-checkbox.lrg + label.css-label.lrg {
+	padding-left:22px;
+    height:20px; 
+	display:inline-block;
+	line-height:20px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:15px;
+	vertical-align:middle;
+    cursor:pointer;
+}
+
+input[type=checkbox].css-checkbox.lrg:checked + label.css-label.lrg{
+
+    background-position: 0 -20px;
+}
